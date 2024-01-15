@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="favicon.png"
+        <link rel="shortcut icon" href="/assets/css/favicon.png"
             type="image/x-icon">
 
         <!--=============== BOXICONS ===============-->
@@ -13,10 +13,10 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
             rel='stylesheet'>
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="swiper-bundle.min.css">
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="/assets/css/register.css">
 
         <title>Home Land</title>
     </head>
@@ -33,7 +33,7 @@
                     <ul class="nav__list">
 
                         <li class="nav__item">
-                            <a href="index.html" class="nav__link  active-link">
+                            <a href="/assets/html/index.html" class="nav__link  active-link">
                                 <i class='bx bx-home-alt-2'></i>
                                 <span>Home</span>
 
@@ -41,7 +41,7 @@
                         </li>
 
                         <li class="nav__item">
-                            <a href="Residences.html" class="nav__link">
+                            <a href="/assets/html/Residences.html" class="nav__link">
                                 <i class='bx bx-building-house'></i>
                                 <span>Residences</span>
 
@@ -68,8 +68,8 @@
 
                 <!-- Theme change button -->
                 <i class='bx bx-moon  change-theme' id="theme-button"></i>
-<!-- 
-                <a href="Register.html" id="login_signup"
+
+                <!-- <a href="Register.html" id="login_signup"
                     class="button nav__button">Sign up / Login </a> -->
             </nav>
         </header>
@@ -85,7 +85,9 @@
                         </h1>
                         <p class="home__description">
                             Hello again&#128522;, 
-                            Please login your account and discover more popular properties.
+                            Please Create a new account and<br> Find a variety of properties that suit you every
+                            easily, forget all difficulties in finding a
+                            residence for you.
                         </p>
 
                         
@@ -123,67 +125,101 @@
                         </div>
                     </div>
 
-                    <div class="home__images">
-                        <div class="home__orbe">
+                    <!-- <div class="home__images"> -->
+                        <div class="home__orbe-container">
+                            <div class="home__orbe">
                                 <form action class="my-form-register  ">
-                                    <div class="form-welcome-row"> <h1>LOGIN TO HOME LAND!</h1></div>
-                                    <div class="socials-row">
-                                        <a href="#" title="Use Google">
-                                            <img src="Google.png" alt="Google" >Use Google
-                                        </a>
-                                        <a href="#" title="Use Apple">
-                                            <img src="Apple.png.png" alt="Google" >Use Apple
-                                        </a>
-                                    </div>
-                                    <div class="divider">
-                                        <div class="divider-line"></div> or <div class="divider-line"></div>
-                                    </div>
-                                    <div class="text-field">
-                                        <label for="email">Email:
-                                            <input 
-                                                   type="email"
-                                                   id="email"
-                                                   name="email"
-                                                   autocomplete="off"
-                                                   placeholder="Your Email"
-                                                   required
-                                                  >
-                                                  <!-- svg icon -->
-                                                  <i class='bx bx-at' ></i>
-                                        </label>
-                                    </div>
-                                    <div class="text-field">
-                                        <label for="passward">Passward:
-                                            <input 
-                                                    type="passward"
-                                                    id="passward"
-                                                    name="passward"
-                                                    placeholder="Your Passward"
-                                                    title="Minimum 6 characters at least
-                                                                1 Alphabet and 1 Number"
-                                                    pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
-                                                    required
-                                                    >
-                                                    <!-- svg icon -->
-                                                    <i class='bx bxs-lock-alt'  ></i>
-                                        </label>
-                                    </div>
-                                    <button type="submit" class="my-form__button">
-                                        Login
-                                    </button>
-                                    <div class="my-form__actions">
-                                        <div class="my-form__row">
-                                            <a href="#" title="Reset Passward">
-                                                Forget Passward
+                                    <div class="form-container">
+                                        <div class="form-welcome-row"> <h1>SIGN UP TO HOME LAND!</h1></div>
+                                        <div class="socials-row">
+                                            <a href="#" title="Use Google">
+                                                <img src="/assets/img/Google.png" alt="Google" >Use Google
                                             </a>
-                                            <a href="Register.html" title="Create Account" >
-                                               Sing up 
+                                            <a href="#" title="Use Apple">
+                                                <img src="/assets/img/Apple.png.png" alt="Google" >Use Apple
                                             </a>
+                                        </div>
+                                        <div class="divider">
+                                            <div class="divider-line"></div> or <div class="divider-line"></div>
+                                        </div>
+                                        <div class="text-field">
+                                            <label for="your-name">What's your name?
+                                                <input 
+                                                       type="text"
+                                                       id="your-name"
+                                                       name="name"
+                                                       placeholder="Name"
+                                                       required
+                                                      >
+                                            </label>
+                                        </div>
+                                        <div class="text-field">
+                                            <label for="email">What's your e-mail?
+                                                <input 
+                                                       type="email"
+                                                       id="email"
+                                                       name="email"
+                                                       autocomplete="off"
+                                                       placeholder="Email"
+                                                       required
+                                                      >
+                                                      <!-- svg icon -->
+                                                      <i class='bx bx-at' ></i>
+                                            </label>
+                                        </div>
+                                        <div class="text-field">
+                                            <label for="passward">Your Passward?
+                                                <input 
+                                                        type="passward"
+                                                        id="passward"
+                                                        name="passward"
+                                                        placeholder="Passward"
+                                                        title="Minimum 6 characters at least
+                                                                    1 Alphabet and 1 Number"
+                                                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+                                                        required
+                                                        >
+                                                        <!-- svg icon -->
+                                                        <i class='bx bxs-lock-alt'  ></i>
+                                            </label>
+                                        </div>
+                                        <div class="text-field">
+                                            <label for="number">Phone Number:
+                                                <input 
+                                                        type="passward"
+                                                        id="number"
+                                                        name="phone_number"
+                                                        placeholder="96XXXXXXXX"
+                                                       
+                                                        required
+                                                        >
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="my-form__button">
+                                            Sign up
+                                        </button>
+                                        <div class="my-form__actions">
+                                            <div class="my-form__row">
+                                                <a href="#" title="Reset Passward">
+                                                    Sign in with your account
+                                                </a>
+                                                <a href="#" title="Create Account" >
+                                                   Forget Passward
+                                                </a>
+                                            </div>
+                                            <div class="my-form-login-link">
+                                                <a href="/assets/html/Login.html" title="Create Account" >
+                                                    Login Now
+                                                 </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </form>
                         </div>
-                    </div>
+                            
+                        </div>
+                       
+                    <!-- </div> -->
                 </div>
             </section>
 
@@ -294,7 +330,7 @@
             </div>
         </footer>
 
-        <!--========== SCROLL UP ==========-->
+              <!--========== SCROLL UP ==========-->
 
         <a href="#" class="scrollup" id="scroll-up">
             <i class='bx bx-chevrons-up'></i>
@@ -304,10 +340,11 @@
         <script src></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src="swiper-bundle.min.js"></script>
+        <script src="/assets/js/swiper-bundle.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src="main.js"></script>
-        <script src="script.js"></script>
+        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/script.js"></script>
+            
     </body>
 </html>
