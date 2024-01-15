@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png"
+            type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/Login.css">
+
+        <title>Home Land</title>
+    </head>
+    <body>
+
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href class="nav__logo">
+                    Home Land <i class='bx bxs-home-alt-2'></i>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link  active-link">
+                                <i class='bx bx-home-alt-2'></i>
+                                <span>Home</span>
+
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#Residences.html" class="nav__link">
+                                <i class='bx bx-building-house'></i>
+                                <span>Residences</span>
+
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#value" class="nav__link">
+                                <i class='bx bx-award'></i>
+                                <span>Value</span>
+
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-phone'></i>
+                                <span>Contact</span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon  change-theme' id="theme-button"></i>
+<!-- 
+                <a href="Register.html" id="login_signup"
+                    class="button nav__button">Sign up / Login </a> -->
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Discover <br> Most Suitable <br> Property
+                        </h1>
+                        <p class="home__description">
+                            Hello again&#128522;, 
+                            Please login your account and discover more popular properties.
+                        </p>
+
+                        
+
+                        <div class="home__value">
+                            <div>
+                                <h1 class="home__value-number">
+                                    9K <span>+</span>
+                                </h1>
+
+                                <span class="home__value-description"> Premium
+                                    <br> Product
+                                </span>
+                            </div>
+
+                            <div>
+                                <h1 class="home__value-number">
+                                    2K <span>+</span>
+                                </h1>
+
+                                <span class="home__value-description"> Happy
+                                    <br> Customer
+                                </span>
+                            </div>
+
+                            <div>
+                                <h1 class="home__value-number">
+                                    28K <span>+</span>
+                                </h1>
+
+                                <span class="home__value-description"> Awards
+                                    <br> Winning
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__images">
+                        <div class="home__orbe">
+                                <form action class="my-form-register  ">
+                                    <div class="form-welcome-row"> <h1>LOGIN TO HOME LAND!</h1></div>
+                                    <div class="socials-row">
+                                        <a href="#" title="Use Google">
+                                            <img src="/assets/img/Google.png" alt="Google" >Use Google
+                                        </a>
+                                        <a href="#" title="Use Apple">
+                                            <img src="/assets/img/Apple.png.png" alt="Google" >Use Apple
+                                        </a>
+                                    </div>
+                                    <div class="divider">
+                                        <div class="divider-line"></div> or <div class="divider-line"></div>
+                                    </div>
+                                    <div class="text-field">
+                                        <label for="email">Email:
+                                            <input 
+                                                   type="email"
+                                                   id="email"
+                                                   name="email"
+                                                   autocomplete="off"
+                                                   placeholder="Your Email"
+                                                   required
+                                                  >
+                                                  <!-- svg icon -->
+                                                  <i class='bx bx-at' ></i>
+                                        </label>
+                                    </div>
+                                    <div class="text-field">
+                                        <label for="passward">Passward:
+                                            <input 
+                                                    type="passward"
+                                                    id="passward"
+                                                    name="passward"
+                                                    placeholder="Your Passward"
+                                                    title="Minimum 6 characters at least
+                                                                1 Alphabet and 1 Number"
+                                                    pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+                                                    required
+                                                    >
+                                                    <!-- svg icon -->
+                                                    <i class='bx bxs-lock-alt'  ></i>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="my-form__button">
+                                        Login
+                                    </button>
+                                    <div class="my-form__actions">
+                                        <div class="my-form__row">
+                                            <a href="#" title="Reset Passward">
+                                                Forget Passward
+                                            </a>
+                                            <a href="Register.html" title="Create Account" >
+                                               Sing up 
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Home Land <i class='bx bxs-home-alt-2'></i>
+                    </a>
+                    <p class="footer__description">
+                        Our vision is to make all people<br>
+                        the best place to live for them.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            About
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Company
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">How We
+                                    Work?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Capital</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Security</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Support
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Follow Us
+                        </h3>
+
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/ " target="_blank"
+                                rel="noopener noreferrer"
+                                class="footer__social-link">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="https://www.instagram.com/ "
+                                target="_blank" rel="noopener noreferrer" "
+                                class="footer__social-link">
+                                <i class='bx bxl-instagram-alt'></i>
+                            </a>
+                            <a href="https://www.pinterest.com/ "
+                                target="_blank" rel="noopener noreferrer" "
+                                class="footer__social-link">
+                                <i class='bx bxl-pinterest'></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    All rights reserved
+                </span>
+
+                <div class="footer__privacy">
+                    <a href>Terms & Conditions</a>
+                    <a href>Privacy policy</a>
+                </div>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="/assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
