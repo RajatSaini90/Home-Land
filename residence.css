@@ -430,7 +430,7 @@ body.dark__theme{
    align-items: center;
    flex-wrap: wrap;
    margin-top: 80px;
-   gap: 160px 50px;
+   gap: 100px 50px;
  }
  
  .popular-container .custom-card {
