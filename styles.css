@@ -428,12 +428,6 @@ body.dark__theme{
    transition:  .5s ease;
 }
 
-.home__orbe:hover{
-
-   border-radius: 158px 28px 158px 28px;
-
-}
-
 .home__img{
 
    position: absolute;
@@ -1316,12 +1310,7 @@ body.dark__theme{
        transition:  .5s ease;
     }
     
-    .home__orbe:hover{
-    
-       border-radius: 258px 28px 258px 28px;
-    
-    }
-    
+
     .home__img{
     
        width: 264px;
@@ -1436,11 +1425,6 @@ body.dark__theme{
       transition:  .5s ease;
    }
 
-   .home__orbe:hover{
-
-      border-radius: 258px 28px 258px 28px;
-
-   }
 
    .home__img{
 
@@ -1471,11 +1455,6 @@ body.dark__theme{
       transition:  .5s ease;
    }
 
-   .home__orbe:hover{
-
-      border-radius: 258px 28px 258px 28px;
-
-   }
 
    .home__img{
 
@@ -1802,11 +1781,6 @@ body.dark__theme{
       transition:  .5s ease;
    }
 
-   .home__orbe:hover{
-
-      border-radius: 258px 28px 258px 28px;
-
-   }
 
    .home__img{
 
