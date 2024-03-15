@@ -1,6 +1,4 @@
-let popContainers = document.querySelectorAll(
-  ".popular-container .custom-card"
-);
+let popContainers = document.querySelectorAll(".popular-container .custom-card");
 
 popContainers.forEach((card) => {
   card.addEventListener("click", function () {
